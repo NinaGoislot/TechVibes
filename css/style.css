@@ -1,0 +1,127 @@
+/* -------------------------- Header-------------------------- */
+
+  .header-logo {
+    color: white;
+  }
+
+  .header {
+    background-color: rgb(48, 48, 48);
+  }
+
+  .barre-nav {
+    margin-left: 20px;
+  }
+
+/* -------------------------- Main -------------------------- */
+
+main {
+    margin-top: 5%;
+}
+
+.product-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+}
+  
+
+.product {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#ifrm {
+    width: 80%;
+    height: 500px;
+    min-width: 20rem;
+    border: none;
+    border-radius: 2px;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.product-details h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.product-details .product-colors button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.canvas-phone {
+    width: 50%;
+}
+
+.btn-buy {
+    border-radius: 2px;
+    background-color: rgb(241, 109, 109);
+    color: white;
+    border: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 500;
+}
+
+.btn-buy:hover {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border: none;
+    animation: pulse 0.5s infinite;
+}
+
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+/*-----------------------------------------------------------------------------------------*/
+
+  .product-description {
+    margin-bottom: 20px;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    color: #ff6f00;
+    margin-bottom: 10px;
+  }
+  
+  .product-colors {
+    margin-bottom: 20px;
+  }
+  
+  .color-button {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+  }
+  
